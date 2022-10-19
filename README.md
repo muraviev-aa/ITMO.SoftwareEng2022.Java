@@ -3,7 +3,13 @@
 <img src="https://ie.wampi.ru/2022/10/19/Java.png" alt="drawing" width="550"/>
 
 
-<strong>1. &#128194; lesson 1. Создание простой C# программы. </strong>
+<strong>1. &#128194; lesson1. </strong>
  
-* Упражнение 1. Создание простой программы;
+* ;
+
+<strong>2. &#128194; lesson2. </strong>
+
+<strong>3. &#128194; lesson3. </strong>
+
+<strong>4. &#128194; lesson4. </strong>
 
