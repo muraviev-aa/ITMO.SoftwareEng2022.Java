@@ -7,8 +7,6 @@
 
 <strong>1. &#128194; lesson1. </strong>
  
-* ;
-
 <strong>2. &#128194; lesson2. </strong>
 
 <strong>3. &#128194; lesson3. </strong>
