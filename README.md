@@ -3,6 +3,8 @@
 <img src="https://ie.wampi.ru/2022/10/19/Java.png" alt="drawing" width="550"/>
 
 
+***Состав репозитория:***
+
 <strong>1. &#128194; lesson1. </strong>
  
 * ;
