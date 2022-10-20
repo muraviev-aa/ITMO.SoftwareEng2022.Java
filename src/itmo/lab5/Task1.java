@@ -3,12 +3,12 @@ package itmo.lab5;
 public class Task1 {
     public static void main(String[] args) {
 
-        String text = "Deadline for the first task";
+        String text = "Leaves are falling from the trees";
 
-        System.out.println(longestWord(text));
+        longestWord(text);
     }
 
-    public static String longestWord(String text) {
+    public static void longestWord(String text) {
         String[] parts = text.split("\\s");
         String max = "";
         for (String part : parts) {
@@ -16,7 +16,7 @@ public class Task1 {
                 max = part;
             }
         }
-        return max;
+        System.out.println(max);
     }
 }
 
