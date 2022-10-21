@@ -9,9 +9,9 @@
 
   * Task 1, 2, 3, 4, 5, 6.
  
-+ <strong> &#128194; lesson2 </strong>
++ <strong> &#128194; lab2 </strong>
 
-  * Задание 2. Упражнения 1, 2.
+  * Task 1, 2.
 
 + <strong> &#128194; lesson3 </strong>
 
