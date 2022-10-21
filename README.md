@@ -13,9 +13,9 @@
 
   * Task 1, 2.
 
-+ <strong> &#128194; lesson3 </strong>
++ <strong> &#128194; lab3 </strong>
 
-  * Задание 3. Упражнения 1, 2, 3, 4.
+  * <strong> &#128448; </strong> Task 1, 2, 3, 4.
 
 + <strong> &#128194; lesson4 </strong>
 
