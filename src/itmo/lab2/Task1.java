@@ -67,19 +67,19 @@ public class Task1 {
         long f = scanner.nextLong();
         System.out.println("\n");
 
-        //Результ числа типа int
+        //Результ вычислений (числа типа int)
         summa(a, b);
         subtraction(a, b);
         division(a, b);
         multiplication(a, b);
 
-        //Результ числа типа double
+        //Результ вычислений (числа типа double)
         summa(c, d);
         subtraction(c, d);
         division(c, d);
         multiplication(c, d);
 
-        //Результ числа типа long
+        //Результ вычислений (числа типа long)
         summa(e, f);
         subtraction(e, f);
         division(e, f);
