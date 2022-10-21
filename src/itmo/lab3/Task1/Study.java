@@ -1,4 +1,4 @@
-package itmo.lesson3;
+package itmo.lab3.Task1;
 
 class Study {
     private String course;
@@ -8,12 +8,8 @@ class Study {
         this.course = course;
     }
 
-    public String printCourse(){
+    public void printCourse(){
 
-        return this.course;
+        System.out.println(course);
     }
 }
-
-
-
-
