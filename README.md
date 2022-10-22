@@ -19,8 +19,10 @@
 
 + <strong> &#128194; lab4 </strong>
 
-  * <strong> &#128448; Part1 </strong>  Task  1-6. 
-  * <strong> &#128448; Part 2 </strong> Task 1-5.
++ <strong> &#128448; Part1 </strong>  
+  * Task  1-6. 
++ <strong> &#128448; Part 2 </strong> 
+  * Task 1-5.
   
 + <strong> &#128194; lab5 </strong>
 
