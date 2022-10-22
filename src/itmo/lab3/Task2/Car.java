@@ -51,11 +51,11 @@ public class Car {
     }
 
     public void methodPrintAll() {
-        System.out.println(("Car{" +
+        System.out.println("Car{" +
                 "color=" + color +
                 ", name='" + name + '\'' +
                 ", weight=" + weight +
-                '}'));
+                '}');
     }
 
 }
