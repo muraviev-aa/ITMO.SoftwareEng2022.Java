@@ -15,7 +15,7 @@
 
 🚩 <strong> &#128194; lab3 </strong>
 
-  * Task 1, 2, 3, 4.
++ <strong> &#128448; Task1 </strong> 
 
 🚩 <strong> &#128194; lab4 </strong>
 
