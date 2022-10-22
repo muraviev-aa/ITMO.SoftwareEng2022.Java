@@ -15,13 +15,13 @@
 
 🚩 <strong> &#128194; lab3 </strong>
 
-+ <strong> &#128448; Task1 </strong> 
++ <strong> &#128448; </strong> Task1  
 
 🚩 <strong> &#128194; lab4 </strong>
 
-+ <strong> &#128448; Part1 </strong>  
++ <strong> &#128448; </strong> Part1   
   * Task  1-6. 
-+ <strong> &#128448; Part 2 </strong> 
++ <strong> &#128448; </strong> Part 2  
   * Task 1-5.
   
 🚩 <strong> &#128194; lab5 </strong>
