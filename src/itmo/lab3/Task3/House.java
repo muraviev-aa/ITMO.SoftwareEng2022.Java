@@ -2,7 +2,7 @@ package itmo.lab3.Task3;
 
 public class House {
     private Integer floor;
-    private Integer year;
+    private Integer yearСurrent;
     private Integer yearFound;
     private String name;
 
@@ -16,11 +16,11 @@ public class House {
     }
 
     public Integer getYear() {
-        return year;
+        return yearСurrent;
     }
 
     public void setYear(Integer year) {
-        this.year = year;
+        this.yearСurrent = year;
     }
 
     public Integer getYearFound() {
@@ -42,19 +42,19 @@ public class House {
     public void methodPrintHouse() {
         System.out.println(("House{" +
                 "floor=" + floor +
-                ", year " + year +
+                ", yearСurrent " + yearСurrent +
                 ", yearFound " + yearFound +
                 ", name='" + name + '\'' +
                 '}'));
     }
 
     public void getAgeHouse() {
-        System.out.println("Возраст дома: " + (year - yearFound));
+        System.out.println("Возраст дома: " + (yearСurrent - yearFound));
     }
 
     public void setHouse(Integer floor, Integer year, Integer yearFound, String name){
         this.floor = floor;
-        this.year = year;
+        this.yearСurrent = year;
         this.yearFound = yearFound;
         this.name = name;
     }
