@@ -1,6 +1,5 @@
-package itmo.lesson3;
+package itmo.lab3.Task2;
 
-import com.sun.deploy.panel.IProperty;
 
 public class Car {
     private Color color;
@@ -12,6 +11,7 @@ public class Car {
     }
 
     public Car(Color color) {
+
         this.color = color;
     }
 
@@ -21,30 +21,41 @@ public class Car {
     }
 
     public Color getColor() {
+
         return color;
     }
 
     public void setColor(Color color) {
+
         this.color = color;
     }
 
     public String getName() {
+
         return name;
     }
 
     public void setName(String name) {
+
         this.name = name;
     }
 
     public Double getWeight() {
+
         return weight;
     }
 
     public void setWeight(Double weight) {
+
         this.weight = weight;
     }
 
-    public String toString() {
-        return "Car{" + "color=" + color + ", name=" + name + ", weight=" + weight + '}';
+    public void methodPrintAll() {
+        System.out.println(("Car{" +
+                "color=" + color +
+                ", name='" + name + '\'' +
+                ", weight=" + weight +
+                '}'));
     }
+
 }

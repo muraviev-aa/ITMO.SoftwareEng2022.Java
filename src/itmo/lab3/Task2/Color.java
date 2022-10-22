@@ -1,4 +1,4 @@
-package itmo.lesson3;
+package itmo.lab3.Task2;
 
 public enum Color {
     BLACK,
