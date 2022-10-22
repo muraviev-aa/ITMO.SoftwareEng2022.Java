@@ -16,7 +16,6 @@ public class Task5 {
     }
 
     public static int @NotNull [] mergeSort(int @NotNull [] ints) {
-//        System.out.println("Intermediate array operations: " + Arrays.toString(ints));
         if (ints.length < 2) {
             return ints;
         }

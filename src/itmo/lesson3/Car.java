@@ -7,44 +7,44 @@ public class Car {
     private String name;
     private Double weight;
 
-    public Car(){
+    public Car() {
 
     }
 
-    public Car(Color color){
+    public Car(Color color) {
         this.color = color;
     }
 
-    public Car(Color color, Double weight){
+    public Car(Color color, Double weight) {
         this.color = color;
         this.weight = weight;
     }
 
-    public Color getColor(){
+    public Color getColor() {
         return color;
     }
 
-    public void setColor(Color color){
+    public void setColor(Color color) {
         this.color = color;
     }
 
-    public String getName(){
+    public String getName() {
         return name;
     }
 
-    public void setName(String name){
+    public void setName(String name) {
         this.name = name;
     }
 
-    public Double getWeight(){
+    public Double getWeight() {
         return weight;
     }
 
-    public void setWeight(Double weight){
+    public void setWeight(Double weight) {
         this.weight = weight;
     }
 
-    public String toString(){
+    public String toString() {
         return "Car{" + "color=" + color + ", name=" + name + ", weight=" + weight + '}';
     }
 }
