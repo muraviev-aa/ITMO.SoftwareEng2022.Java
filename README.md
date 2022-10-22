@@ -5,26 +5,26 @@
 
 ***Состав репозитория:***
 
-+ <strong> &#128194; lab1 </strong>
+🚩 <strong> &#128194; lab1 </strong>
 
   * Task 1, 2, 3, 4, 5, 6.
  
-+ <strong> &#128194; lab2 </strong>
+🚩 <strong> &#128194; lab2 </strong>
 
   * Task 1, 2.
 
-+ <strong> &#128194; lab3 </strong>
+🚩 <strong> &#128194; lab3 </strong>
 
-  * <strong> &#128448; </strong> Task 1, 2, 3, 4.
+  * Task 1, 2, 3, 4.
 
-+ <strong> &#128194; lab4 </strong>
+🚩 <strong> &#128194; lab4 </strong>
 
 + <strong> &#128448; Part1 </strong>  
   * Task  1-6. 
 + <strong> &#128448; Part 2 </strong> 
   * Task 1-5.
   
-+ <strong> &#128194; lab5 </strong>
+🚩 <strong> &#128194; lab5 </strong>
 
   * Task 1, 2, 3, 4, 5.
 
