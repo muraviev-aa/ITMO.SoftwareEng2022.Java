@@ -4,9 +4,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Integer num = 2;
-
-        Сhild child = new Сhild(num);
+        Сhild child = new Сhild(2);
         child.methodOutput();
 
     }

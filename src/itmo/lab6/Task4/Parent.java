@@ -7,4 +7,5 @@ public class Parent {
     public Parent(Integer number) {
         this.number = number;
     }
+
 }
