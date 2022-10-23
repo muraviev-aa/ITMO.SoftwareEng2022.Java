@@ -1,38 +1,25 @@
 package itmo.lab6.Task5;
 
-
-import org.jetbrains.annotations.Contract;
-import org.jetbrains.annotations.NotNull;
-
 import java.util.Scanner;
 
 public class Parent1 {
 
-    protected Integer age;
-    protected String name;
+    protected int age;
 
-    public Parent1(Integer age, String name) {
+    public Parent1() {}
+
+    public Parent1(int age) {
         this.age = age;
-        this.name = name;
     }
 
-    public Integer getAge() {
-        return age;
+    Scanner scanner = new Scanner(System.in);
+
+    public void addAge() {
+        System.out.println("Введите возраст пользователя: ");
+        age = scanner.nextInt();
     }
 
-    public void getName() {
-        System.out.println("Родитель: " + age);
-    }
-
-    static Scanner scan = new Scanner(System.in);
-
-    public static int scanInt() {
-
-        return scan.nextInt();
-    }
-
-    public static String scanLine() {
-
-        return scan.nextLine();
+    public void addName() {
+        //logic
     }
 }
