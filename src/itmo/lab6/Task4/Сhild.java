@@ -7,7 +7,7 @@ public class Сhild extends Parent {
     }
 
     public void methodOutput() {
-
-        System.out.println("Переменная с главного класса: " + super.number);
+        Integer number1 = super.number;
+        System.out.println("Переменная с главного класса: " + number1);
     }
 }
