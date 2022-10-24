@@ -4,19 +4,17 @@ public class Child1 extends Parent1 {
 
     String name;
 
-    public Child1(){}
+    public Child1() {
+
+    }
 
 
     @Override
-    public void addName() {
-
+    public void printInfo() {
+        super.printInfo();
         System.out.println("Введите имя пользователя: ");
         scanner.nextLine();
         name = scanner.nextLine();
-    }
-
-    public void methodPrint() {
-
         System.out.println("Возраст пользователя: " + super.age + ";\n" + "Имя пользователя: " + name);
     }
 }
