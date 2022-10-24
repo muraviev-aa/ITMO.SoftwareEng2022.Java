@@ -1,13 +1,17 @@
 package itmo.lab5;
 
+import java.util.Arrays;
+
 public class Task3 {
     public static void main(String[] args) {
 
-        String changWord = "бяка";
-        String text = "За нами бяка и перед нами бяка, вокруг бяка. Но нам хорошо!";
+        String changeWord = "н";
+        String text = "бяка не бяка а бяка";
 
-        replaceAll(changWord, text);
-        examSubstring(changWord, text);
+
+        replaceAll(changeWord, text);
+        examSubstring(changeWord, text);
+        changeArray(changeWord, text);
     }
 
     public static void replaceAll(String changWord, String text) {
@@ -16,11 +20,22 @@ public class Task3 {
 
     }
 
-    public static void examSubstring(String changWord, String text) {
-        if (text.indexOf(changWord) == -1) {
-            System.out.println("Заменяемое слово не является подстрокой!");
-        }else {
-            System.out.println("Заменяемое слово является подстрокой");
+    public static void examSubstring(String changeWord, String text) {
+
+        boolean bl = text.contains(changeWord);
+        System.out.println(bl);
+    }
+
+    public static void changeArray(String changeWord, String text) {
+        String[] stringArray = text.toLowerCase().split(" ");
+
+        for (String string : stringArray) {
+            for (int i = 1; i < stringArray.length; i++) {
+                boolean b = string.contains(changeWord);
+                System.out.println(b);
+            }
+
+
         }
     }
 }
