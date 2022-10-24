@@ -25,9 +25,12 @@
 
 🚩 <strong> &#128194; lab4 </strong>
 
-+ <strong> &#128448; </strong> Part1   
++ <strong> &#128448; </strong> Part1 
+
   * Task  1, 2, 3, 4, 5, 6. 
+  
 + <strong> &#128448; </strong> Part 2  
+
   * Task 1, 2, 3, 4, 5.
   
 🚩 <strong> &#128194; lab5 </strong>
@@ -35,6 +38,8 @@
   * Task 1, 2, 3, 4, 5.
   
 🚩 <strong> &#128194; lab6 </strong>
+
++ <strong> &#128448; </strong> Task1
 
 + <strong> &#128448; </strong> Task3 
 
