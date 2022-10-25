@@ -1,41 +1,27 @@
 package itmo.lab5;
 
-import java.util.Arrays;
+
+import java.util.Objects;
 
 public class Task3 {
     public static void main(String[] args) {
 
-        String changeWord = "н";
-        String text = "бяка не бяка а бяка";
+        String text = "Бяка за нами и перед нами бяка";
+        String changeWord = "бяка";
 
-
-        replaceAll(changeWord, text);
-        examSubstring(changeWord, text);
-        changeArray(changeWord, text);
-    }
-
-    public static void replaceAll(String changWord, String text) {
-
-        System.out.println(text.replace(changWord, "[вырезано цензурой]"));
+        replaceWord(text, changeWord);
 
     }
 
-    public static void examSubstring(String changeWord, String text) {
-
-        boolean bl = text.contains(changeWord);
-        System.out.println(bl);
-    }
-
-    public static void changeArray(String changeWord, String text) {
+    public static void replaceWord(String text, String changeWord) {
         String[] stringArray = text.toLowerCase().split(" ");
 
-        for (String string : stringArray) {
-            for (int i = 1; i < stringArray.length; i++) {
-                boolean b = string.contains(changeWord);
-                System.out.println(b);
+        for (int i = 0; i < stringArray.length; i++) {
+            if (text.toLowerCase().contains(changeWord) && Objects.equals(stringArray[i], changeWord)) {
+                System.out.println(text.toLowerCase().replace(changeWord, "[вырезано цензурой]"));
+            } else {
+                System.out.println("Замены не будет");
             }
-
-
         }
     }
 }
