@@ -10,7 +10,6 @@ public class Task3 {
         String changeWord = "бяка";
 
         replaceWord(text, changeWord);
-
     }
 
     public static void replaceWord(String text, String changeWord) {
@@ -19,9 +18,12 @@ public class Task3 {
         for (int i = 0; i < stringArray.length; i++) {
             if (text.toLowerCase().contains(changeWord) && Objects.equals(stringArray[i], changeWord)) {
                 System.out.println(text.toLowerCase().replace(changeWord, "[вырезано цензурой]"));
+
             } else {
                 System.out.println("Замены не будет");
             }
         }
     }
+
+
 }
