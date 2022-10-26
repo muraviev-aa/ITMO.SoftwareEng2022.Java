@@ -1,6 +1,7 @@
 package itmo.lab5;
 
 import java.util.Collections;
+import java.util.Objects;
 
 public class Task2 {
     public static void main(String[] args) {
@@ -14,5 +15,6 @@ public class Task2 {
         StringBuilder plain = new StringBuilder(clean);
         StringBuilder reverse = plain.reverse();
         System.out.println("Слово " + text + " палиндром: " + reverse.toString().equals(clean));
+
     }
 }
