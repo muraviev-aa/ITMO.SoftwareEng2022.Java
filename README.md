@@ -41,6 +41,8 @@
 
 + <strong> &#128448; </strong> Task1
 
++ <strong> &#128448; </strong> Task2
+
 + <strong> &#128448; </strong> Task3 
 
 + <strong> &#128448; </strong> Task4
