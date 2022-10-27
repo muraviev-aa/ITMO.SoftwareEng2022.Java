@@ -48,3 +48,7 @@
 + <strong> &#128448; </strong> Task4
 
 + <strong> &#128448; </strong> Task5
+
+🚩 <strong> &#128194; lab7 </strong>
+
+  * Task 1.
