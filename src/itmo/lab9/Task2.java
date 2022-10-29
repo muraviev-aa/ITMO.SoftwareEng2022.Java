@@ -36,7 +36,7 @@ public class Task2 {
 
         long start1 = System.currentTimeMillis();
 
-        //логика по ArrayList
+        //логика по LinkedList
         methodAddLinkedList(strings1);
         methodGetLinkedList(strings1);
 
