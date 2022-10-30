@@ -12,8 +12,8 @@ public class Task2 {
         ArrayList<String> strings = new ArrayList<>();
         LinkedList<String> strings1 = new LinkedList<>();
 
-        currentTimeMillisArrayList(strings);
-        currentTimeMillisLinkedList(strings1);
+        currentTimeMillisArrayList(strings);    // Result мс: 1046
+        currentTimeMillisLinkedList(strings1);  // Result мс: 56250
 
     }
 
