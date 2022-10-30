@@ -39,8 +39,7 @@ public class Task3 {
         System.out.println("Введите имя: ");
         name = scanner.nextLine();
 
-        Task3 var = new Task3(name); // var нужно передать в Map
-
+        Task3 var = new Task3(name);
 
         Integer integer = map.get(var.getName());
         System.out.println("Количество очков: " + integer);
