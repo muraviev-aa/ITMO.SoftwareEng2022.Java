@@ -1,9 +1,6 @@
 package itmo.lab9;
 
-import java.util.ArrayList;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Set;
+import java.util.*;
 
 public class Task1 {
 
@@ -21,21 +18,13 @@ public class Task1 {
         strings.add("string7");
         strings.add("string7");
 
-        methodPrintList(strings);
-
-        Set<String> set = new HashSet<>(strings);
-        strings.clear();
-        strings.addAll(set);
-
-        methodPrintSet(set);
+        System.out.println("Коллекция без дубликатов: " + deleteDublicates(strings));
     }
 
-    public static void methodPrintList(List<String> strings) {
-        System.out.println("Коллекция с дубликатами: " + strings);
-    }
+    //Метод принимает коллекцию и возвращает коллекцию уже без дубликатов
+    public static Set<String> deleteDublicates(List<String> strings) {
 
-    public static void methodPrintSet(Set<String> set) {
-        System.out.println("Коллекция без дубликатов: " + set);
+        return new LinkedHashSet<>(strings);
     }
 
 }
