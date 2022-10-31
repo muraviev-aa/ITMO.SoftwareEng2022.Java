@@ -19,6 +19,7 @@ public class Task1 {
         strings.add("string7");
 
         System.out.println("Коллекция без дубликатов: " + deleteDublicates(strings));
+
     }
 
     //Метод принимает коллекцию и возвращает коллекцию уже без дубликатов
