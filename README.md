@@ -59,4 +59,4 @@
   
   * Task 2.
   
-  * Task 3.
+  * <strong> &#128448; </strong> Task3.
