@@ -15,6 +15,7 @@ public class Task1 {
         list.add("string5");
         list.add("string5");
         list.add("string6");
+        list.add("string6");
         list.add("string7");
         list.add("string7");
 
@@ -22,9 +23,8 @@ public class Task1 {
     }
 
     public static <T> void delDublicates(List<T> list) {
-
         Set<T> set = new LinkedHashSet<>(list);
-        System.out.println("Коллекция без дубликатов1: " + set);
+        System.out.println("Коллекция без дубликатов: " + set);
     }
 
 
