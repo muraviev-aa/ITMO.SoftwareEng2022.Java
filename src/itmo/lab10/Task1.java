@@ -25,7 +25,7 @@ public class Task1 {
                 arrayList.add(reader.readLine());
             }
         }catch(IOException e) {
-            System.out.println(e);
+            System.err.println(e.getMessage());
         }
     }
 
