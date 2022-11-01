@@ -1,4 +1,4 @@
-package itmo.lab9.task3;
+package itmo.lab9.Task3;
 
 public class User {
     private String name;
