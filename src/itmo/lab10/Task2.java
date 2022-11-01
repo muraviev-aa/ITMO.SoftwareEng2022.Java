@@ -17,8 +17,8 @@ public class Task2 {
     }
 
     public static void stringWriter(String text, File file) {
-        try (BufferedWriter out = new BufferedWriter(new FileWriter(file))) {
-            out.write(text);
+        try (BufferedWriter writer = new BufferedWriter(new FileWriter(file))) {
+            writer.write(text);
         } catch (IOException e) {
             System.err.println(e.getMessage());
         }
