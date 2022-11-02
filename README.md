@@ -17,7 +17,7 @@
 
 + <strong> &#128448; </strong> Task 1, 2, 3, 4  
 
-🚩 <strong> &#128194; lab4. </strong> Git, циклы for и forEach.
+🚩 <strong> &#128194; lab4. </strong> Git, циклы for и forEach. Массивы.
 
 + <strong> &#128448; </strong> Part1 
 
@@ -27,7 +27,7 @@
 
   * Task 1, 2, 3, 4, 5.
   
-🚩 <strong> &#128194; lab5. </strong> Алгоритмы и структуры данных, массивы.
+🚩 <strong> &#128194; lab5. </strong> String, StringBulder, StringBuffer.
 
   * Task 1, 2, 3, 4, 5.
   
