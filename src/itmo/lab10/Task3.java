@@ -29,6 +29,9 @@ public class Task3 {
                 bld.append(string).append(" ");
                 bld.append(string2).append(" ");
             }
+            scanner.close();
+            scanner2.close();
+
         } catch (IOException e) {
             System.out.println(e.getMessage());
         }
