@@ -15,13 +15,7 @@
 
 🚩 <strong> &#128194; lab3 </strong>
 
-+ <strong> &#128448; </strong> Task1  
-
-+ <strong> &#128448; </strong> Task2
-
-+ <strong> &#128448; </strong> Task3
-
-+ <strong> &#128448; </strong> Task4
++ <strong> &#128448; </strong> Task 1, 2, 3, 4  
 
 🚩 <strong> &#128194; lab4 </strong>
 
@@ -39,15 +33,7 @@
   
 🚩 <strong> &#128194; lab6 </strong>
 
-+ <strong> &#128448; </strong> Task1
-
-+ <strong> &#128448; </strong> Task2
-
-+ <strong> &#128448; </strong> Task3 
-
-+ <strong> &#128448; </strong> Task4
-
-+ <strong> &#128448; </strong> Task5
++ <strong> &#128448; </strong> Task 1, 2, 3, 4, 5
 
 🚩 <strong> &#128194; lab7 </strong>
 
@@ -55,8 +41,13 @@
   
 🚩 <strong> &#128194; lab9 </strong>
 
-  * Task 1.
-  
-  * Task 2.
+  * Task 1, 2.
   
   * <strong> &#128448; </strong> Task3
+  
+🚩 <strong> &#128194; lab10 </strong>
+
+  * Task 1, 2, 3, 4.
+
+  
+  
