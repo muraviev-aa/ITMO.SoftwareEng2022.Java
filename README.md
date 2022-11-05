@@ -49,5 +49,7 @@
 
   * Task 1, 2, 3, 4.
 
-  
+🚩 <strong> &#128194; labMultithreading. </strong> Многопоточность.
+
+  * <strong> &#128448; </strong> Task2
   
