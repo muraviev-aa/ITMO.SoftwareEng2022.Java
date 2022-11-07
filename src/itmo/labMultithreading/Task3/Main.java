@@ -10,7 +10,7 @@ public class Main {
 
 
         Runnable run = () -> {
-            for (int i = 0; i < 1000; i++) {
+            for (int i = 0; i <= 1000; i++) {
                 counter.increment();
             }
         };
@@ -19,12 +19,14 @@ public class Main {
             threads[i] = new Thread(run);
         }
 
+
         for (Thread thr : threads) {
             thr.start();
         }
 
+
         while (!endThreads(threads)) {
-            Thread.sleep(200);
+            Thread.sleep(100);
         }
 
         System.out.println(counter.getCount());
@@ -32,7 +34,7 @@ public class Main {
 
     static boolean endThreads(Thread[] threads) {
         for (Thread thr : threads) {
-            if(thr.isAlive()) {
+            if (thr.isAlive()) {
                 return false;
             }
         }
