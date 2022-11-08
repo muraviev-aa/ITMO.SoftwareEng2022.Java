@@ -8,10 +8,17 @@ public class Main {
 
         Thread[] threads = new Thread[100];
 
+        resultCount(threads, counter);
 
+    }
+
+    static void resultCount(Thread[] threads, Counter counter) {
         Runnable run = () -> {
-            for (int i = 0; i <= 1000; i++) {
-                counter.increment();
+            synchronized (counter) {
+                for (int i = 0; i < 1000; i++) {
+                    counter.increment();
+                    System.out.println(counter.getCount());
+                }
             }
         };
 
@@ -19,25 +26,8 @@ public class Main {
             threads[i] = new Thread(run);
         }
 
-
         for (Thread thr : threads) {
             thr.start();
         }
-
-
-        while (!endThreads(threads)) {
-            Thread.sleep(100);
-        }
-
-        System.out.println(counter.getCount());
-    }
-
-    static boolean endThreads(Thread[] threads) {
-        for (Thread thr : threads) {
-            if (thr.isAlive()) {
-                return false;
-            }
-        }
-        return true;
     }
 }
