@@ -7,11 +7,11 @@ public class Main {
         Object obj = new Object();
 
         waitNotify(obj);
+
     }
 
     public static void waitNotify(Object obj) throws InterruptedException {
 
-        for (int i = 0; i <= 3; i++) {
             new Thread(() -> {
                 synchronized (obj) {
                     try {
@@ -33,6 +33,5 @@ public class Main {
                     System.out.println(Thread.currentThread().getName() + " notify() ");
                 }
             }).start();
-        }
     }
 }
