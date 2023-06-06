@@ -1,4 +1,7 @@
+![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
+![IntelliJ IDEA](https://img.shields.io/badge/IntelliJIDEA-000000.svg?style=for-the-badge&logo=intellij-idea&logoColor=white)
 ## ITMO.SoftwareEng2022.Java
+<a name="readme-top"></a>
 ### ИТМО 2022. Разработка приложений на Java
 
 <p align="center">
@@ -55,3 +58,4 @@
 
   * <strong> &#128448; </strong> Task 1, 2, 3, 4
   
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
